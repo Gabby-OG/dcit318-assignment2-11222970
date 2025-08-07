@@ -43,8 +43,8 @@ namespace AbstractClassesAndMethods
     {
         static void Main(string[] args)
         {
-            Shape circle = new Circle(5);
-            Shape rectangle = new Rectangle(4, 6);
+            Shape circle = new Circle(6);
+            Shape rectangle = new Rectangle(8, 9);
 
             Console.WriteLine($"Area of Circle: {circle.GetArea():F2}");
             Console.WriteLine($"Area of Rectangle: {rectangle.GetArea():F2}");
